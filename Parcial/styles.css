@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .aceptar{
+    display: none;
+  }
+  
+  
+  .form-register {
+    width: 400px;
+    background: #fafbfc;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px rgba(20, 20, 20, 0.301);
+  }
+  .datos {
+    width: 500px;
+    background: #fafbfc;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px rgba(20, 20, 20, 0.301);
+    display: none;
+  }
+
+  .form-tabla {
+    border-radius: 4px;
+    border: 1px solid #a4a7a7;
+
+  }
+  
+  .form-register h6 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .controls {
+    width: 100%;
+    height: 80%;
+    background: #fdfeff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #a4a7a7;
+    font-family: 'calibri';
+    font-size: 16px;
+    color: rgb(14, 13, 13);
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color:#0c9de0;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color:#027eb8;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  form .grupo_input{
+    position:relative;
+  }
+
+  form .grupo_input i{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 6px;
+    color:rgb(121, 120, 120)
+  }
+
+  form .caja1{
+    background: #34ee34;
+    border-radius: 4px;
+    float: left;
+    width: 30%;
+    position: relative;
+    overflow: auto;
+  }
+  form .caja2{
+    float: left;
+  }
+
+  form a{
+    color: #0c9de0;
+  }
+  .contenedor1{
+    float: left;
+    overflow: auto;
+  }
+  .contenedor2{
+    width: 70%;
+    float: left;
+    position:static;
+  }
+
+  .contenedor2 input{
+    width: 40px;
+    float: left;
+    position:static;
+  }
+
+
+  form .caja1 i{
+    position: relative;
+    margin: auto;
+  }
+
+  .estilo{
+    color:#646666;
+    padding-top:  8px;
+  }
+  .text{
+    color:#0c9de0;
+  }
+  .input2{
+    color:#1f53c5;
+  }
+
+  .aceptar a{
+    color:#646666;
+  }
+
+  .form-register a:hover {
+    color:#646666;
+  }

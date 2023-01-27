@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pagina1">
+        <form id="formulario" class="form-register">
+    
+            <h6 class="text-align-center">Formulario de afiliacion</h6>
+            
+            <div class="grupo_input">
+                <i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z"/></svg></i>
+                <input class="form-input controls" type="text" name="nombres" id="nombre" placeholder="Nombre Completo">
+            </div>
+    
+            <div class="grupo_input">
+                <i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg></i>
+                <input class="form-input controls" type="text" name="email" id="email" placeholder="Email">
+            </div>
+            
+            <div class="grupo_input">
+                <i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg></i>
+                <input class="form-input controls" type="text" name="text" id="text" placeholder="Text">
+            </div>
+    
+            <div class="input-group mb-3">
+                <input type="text" id="gusto" class="form-input form-control controls" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button id="boton-enviar" class="btn btn-outline-success" type="button">Gustos</button>
+                </div>
+            </div>
+            <div class="container form-tabla border border-secondary  py-2 px-2 ps-3">
+                <div class="row">
+                    <div class="caja1 p-2">
+                        <i><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 22 22"><path d="M17.246 4.042c-3.36 0-3.436-2.895-7.337-2.895-2.108 0-4.075.98-4.909 1.694v-2.841h-2v24h2v-9.073c1.184-.819 2.979-1.681 4.923-1.681 3.684 0 4.201 2.754 7.484 2.754 2.122 0 3.593-1.359 3.593-1.359v-12.028s-1.621 1.429-3.754 1.429zm1.754 9.544c-.4.207-.959.414-1.593.414-.972 0-1.498-.363-2.371-.964-1.096-.755-2.596-1.79-5.113-1.79-1.979 0-3.71.679-4.923 1.339v-7.488c1.019-.902 2.865-1.949 4.909-1.949 1.333 0 1.894.439 2.741 1.103.966.756 2.288 1.792 4.596 1.792.627 0 1.215-.086 1.754-.223v7.766z"/></svg></i>
+                    </div>
+                    <div class="caja2 contenedor2">
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Gustos</th>
+                                <th scope="col">%</th>
+                                <th scope="col">Edit</th>
+                              </tr>
+                            </thead>
+                            <tbody id="body">
+                              
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="aceptar"class="aceptar">
+                <small class="estilo">Pulse aceptar para guardar los cambios o cancelar para anularlos</small>
+                <br>
+                <button id="enviar"class="btn btn-outline-secondary" type="button">Guardar</button>
+                <button id="cancelar" class="btn btn-outline-danger" type="button">Cancelar</button>
+            </div>
+            
+            <div class="text">
+                <a href="https://www.youtube.com/watch?v=Pd8W9WtMXDw" >ir a site de P web (todo lo que un programador necesita)</a>
+            </div>
+         
+        </form>
+    </div>
+    <div id="resultado" class="pagina2 datos">
+        <div class="container">
+            <div class="row ">
+                <div class="col-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.5 8c.828 0 1.5.671 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.671-1.5-1.5.672-1.5 1.5-1.5zm-7 0c.828 0 1.5.671 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.671-1.5-1.5.672-1.5 1.5-1.5zm3.501 10c-2.801 0-4.874-1.846-6.001-3.566l.493-.493c1.512 1.195 3.174 1.931 5.508 1.931 2.333 0 3.994-.736 5.506-1.931l.493.493c-1.127 1.72-3.199 3.566-5.999 3.566z"/></svg>
+                </div>
+                <div class="col-8 nombre">
+                    <h1 id="nombreregistro" class="nombreregistro"></h1>
+                    <h1 class="ficha">ficha</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Email</h3>
+                </div>
+                <div class="col-6">
+                    <span id="emaildato" class="emaildato"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Telefono</h3>
+                </div>
+                <div class="col-6">
+                    <span id="telefonodato" class="telefonodato"></span>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-6">
+                    <h3>Gusto</h3>
+                </div>
+                <div class="col-6">
+                    <span id="gusto" class="gusto_final"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Porcentaje %</h3>
+                </div>
+                <div class="col-6">
+                    <span id="porcentaje" class="porcentaje_final"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
